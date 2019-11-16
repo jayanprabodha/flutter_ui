@@ -57,10 +57,23 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-     - family: Schyler
-       fonts:
+    - family: Schyler
+      fonts:
         - asset: assets/fonts/Billabong.ttf
         - asset: assets/fonts/cm_sans_serif_2012.ttf
+        - asset: assets/fonts/SF-Pro-Text-Regular.otf
+
+    - family: SF-Pro-Text-Bold
+      fonts:
+        - asset: assets/fonts/SF-Pro-Text-Bold.otf
+
+    - family: Calibre-Semibold
+      fonts:
+        - asset: assets/fonts/Calibre Semibold.otf
+
+    - family: CustomIcons
+      fonts:
+        - asset: assets/fonts/custom_icons.ttf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
