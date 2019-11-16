@@ -9,7 +9,7 @@ import 'screen/adidas_shoes_screen.dart';
 import 'screen/product_screen.dart';
 import 'screen/greenery_screen.dart';
 import 'screen/furniture_screen.dart';
-
+import 'screen/curved_design_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -153,6 +153,16 @@ class _MyHomePageState extends State<MyHomePage> {
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => FurnitureScreen()),
+            );
+          },
+          ),
+          RaisedButton(
+            color: Colors.red,
+            child: Text('Flutter Curved Design UI'),
+            onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => CurvedDesignScreen()),
             );
           },
           ),
