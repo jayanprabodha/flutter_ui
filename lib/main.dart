@@ -8,6 +8,7 @@ import 'screen/story_screen.dart';
 import 'screen/adidas_shoes_screen.dart';
 import 'screen/product_screen.dart';
 import 'screen/greenery_screen.dart';
+import 'screen/furniture_screen.dart';
 
 
 void main() => runApp(MyApp());
@@ -142,6 +143,16 @@ class _MyHomePageState extends State<MyHomePage> {
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => GreeneryScreen()),
+            );
+          },
+          ),
+          RaisedButton(
+            color: Colors.red,
+            child: Text('Flutter Furniture UI'),
+            onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => FurnitureScreen()),
             );
           },
           ),
