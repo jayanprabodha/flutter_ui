@@ -74,6 +74,17 @@ flutter:
     - family: CustomIcons
       fonts:
         - asset: assets/fonts/custom_icons.ttf
+    - family: Montserrat-Bold
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+
+    - family: Montserrat-Medium
+      fonts:
+        - asset: assets/fonts/Montserrat-Medium.ttf
+
+    - family: Montserrat-SemiBold
+      fonts:
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
