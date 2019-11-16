@@ -6,6 +6,8 @@ import 'screen/plant_shop_screen.dart';
 import 'screen/search_screen.dart';
 import 'screen/story_screen.dart';
 import 'screen/adidas_shoes_screen.dart';
+import 'screen/product_screen.dart';
+import 'screen/greenery_screen.dart';
 
 
 void main() => runApp(MyApp());
@@ -115,11 +117,31 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           RaisedButton(
             color: Colors.red,
-            child: Text('Flutter Adidas Shoes  UI'),
+            child: Text('Flutter Adidas Shoes UI'),
             onPressed: () {
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => AdidasShoesScreen()),
+            );
+          },
+          ),
+          RaisedButton(
+            color: Colors.red,
+            child: Text('Flutter Product Details UI'),
+            onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => ProductDetail()),
+            );
+          },
+          ),
+          RaisedButton(
+            color: Colors.red,
+            child: Text('Flutter Greenery UI'),
+            onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => GreeneryScreen()),
             );
           },
           ),
