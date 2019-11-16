@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'screen/feed_screen.dart';
+import 'screen/onboarding_screen.dart';
 import 'screen/plant_shop_screen.dart';
 import 'screen/search_screen.dart';
 
@@ -84,6 +86,26 @@ class _MyHomePageState extends State<MyHomePage> {
             Navigator.push(
               context,
               MaterialPageRoute(builder: (context) => SearchScreen()),
+            );
+          },
+          ),
+          RaisedButton(
+            color: Colors.red,
+            child: Text('Flutter Instagram UI Redesign Speed Code'),
+            onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => FeedScreen()),
+            );
+          },
+          ),
+          RaisedButton(
+            color: Colors.red,
+            child: Text('Flutter Onboarding UI Speed Code'),
+            onPressed: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => OnboardingScreen()),
             );
           },
           ),
