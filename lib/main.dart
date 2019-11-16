@@ -53,13 +53,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -72,7 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
         children: <Widget>[
             RaisedButton(
             color: Colors.red,
-            child: Text('Flutter Plant Shop UI Speed Code'),
+            child: Text('Flutter Plant Shop UI'),
             onPressed: () {
             Navigator.push(
               context,
@@ -82,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           RaisedButton(
             color: Colors.red,
-            child: Text('Flutter Travel Booking UI Speed Code'),
+            child: Text('Flutter Travel Booking UI'),
             onPressed: () {
             Navigator.push(
               context,
@@ -92,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           RaisedButton(
             color: Colors.red,
-            child: Text('Flutter Instagram UI Redesign Speed Code'),
+            child: Text('Flutter Instagram UI'),
             onPressed: () {
             Navigator.push(
               context,
@@ -102,7 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           RaisedButton(
             color: Colors.red,
-            child: Text('Flutter Onboarding UI Speed Code'),
+            child: Text('Flutter Onboarding UI'),
             onPressed: () {
             Navigator.push(
               context,
@@ -112,7 +105,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
           RaisedButton(
             color: Colors.red,
-            child: Text('Flutter Story UI Speed Code'),
+            child: Text('Flutter Story UI'),
             onPressed: () {
             Navigator.push(
               context,
@@ -124,11 +117,6 @@ class _MyHomePageState extends State<MyHomePage> {
         
         
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
